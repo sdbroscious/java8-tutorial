@@ -4,6 +4,8 @@
 
 Welcome to not my introduction to [Java 8](https://jdk8.java.net/). This tutorial guides you step by step through all new language features. Backed by short and simple code samples you'll learn how to use default interface methods, lambda expressions, method references and repeatable annotations. At the end of the article you'll be familiar with the most recent [API](http://download.java.net/jdk8/docs/api/) changes like streams, functional interfaces, map extensions and the new Date API. **No walls of text, just a bunch of commented code snippets. Enjoy!**
 
+NOTE: I set this up as an Eclipse Java project.
+
 This article was originally posted on [my blog](http://winterbe.com/posts/2014/03/16/java-8-tutorial/). You should [follow me on Twitter](https://twitter.com/winterbe_).
 
 ## Table of Contents
