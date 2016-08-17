@@ -30,7 +30,7 @@ public class Streams1 {
                 .forEach(System.out::println);
 
         // "aaa2", "aaa1"
-
+        System.out.println("******");
 
         // sorting
 
@@ -41,7 +41,7 @@ public class Streams1 {
                 .forEach(System.out::println);
 
         // "aaa1", "aaa2"
-
+        System.out.println("******");
 
         // mapping
 
@@ -52,7 +52,7 @@ public class Streams1 {
                 .forEach(System.out::println);
 
         // "DDD2", "DDD1", "CCC", "BBB3", "BBB2", "AAA2", "AAA1"
-
+        System.out.println("******");
 
         // matching
 
@@ -61,18 +61,21 @@ public class Streams1 {
                 .anyMatch((s) -> s.startsWith("a"));
 
         System.out.println(anyStartsWithA);      // true
+        System.out.println("******");
 
         boolean allStartsWithA = stringCollection
                 .stream()
                 .allMatch((s) -> s.startsWith("a"));
 
         System.out.println(allStartsWithA);      // false
+        System.out.println("******");
 
         boolean noneStartsWithZ = stringCollection
                 .stream()
                 .noneMatch((s) -> s.startsWith("z"));
 
         System.out.println(noneStartsWithZ);      // true
+        System.out.println("******");
 
 
         // counting
@@ -83,6 +86,7 @@ public class Streams1 {
                 .count();
 
         System.out.println(startsWithB);    // 3
+        System.out.println("******");
 
 
         // reducing
@@ -95,6 +99,7 @@ public class Streams1 {
 
         reduced.ifPresent(System.out::println);
         // "aaa1#aaa2#bbb1#bbb2#bbb3#ccc#ddd1#ddd2"
+        System.out.println("******");
 
 
     }
